@@ -8,6 +8,8 @@ const unsubscribe = store.subscribe( () => {
 store.dispatch({ type: "change_name", name: "why" });
 store.dispatch({ type: "change_name", name: "李磊" });
 
+
+// 取消订阅
 unsubscribe()
 
 // 修改counter
